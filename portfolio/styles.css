@@ -12,6 +12,10 @@
   font-size: 20px;
   border-radius: 5px;
 }
+.header .inner-wrap .nav{
+    display: none;
+   
+}
 .header .inner-logo img{
     width: 20px;
     height: auto;
@@ -38,13 +42,18 @@
 }
 .header .inner-menu ul li a:hover{
    background-color: aliceblue;
+
 }
 @media (max-width: 768px) {
     .header {
         padding: 10px;
     }
 
-
+    .header .inner-wrap .nav{
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
     .header .inner-menu ul {
        display: none;
     }
@@ -171,14 +180,26 @@
     align-items: center;
     border: 3px solid rgb(11, 11, 11);
     padding: 30px 50px;
+  
  
    
+}
+.section-two .inner-wrap .inner-box span{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    position: relative;
+
+}
+.section-two .inner-wrap .inner-box:hover{
+    background-color: rgb(21, 21, 22);
+    color: white;
 }
 .section-two .inner-wrap .inner-box i{
     width: 100%;
     display: flex;
     flex-direction: column;
-  
+    position: relative;
 
    
     font-size: 40px;
